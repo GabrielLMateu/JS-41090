@@ -1,5 +1,5 @@
 function listadoproductos() {
-    let listado = Number(prompt('Productos y precios \n1) Zapatillas danza clasica - $1450 c/u \n2) Zapatos de Tap - $1950 c/u \n3) Metatarsiana - $1150 c/u \n4) Remera de Algodon PLIÉ CHASSÉ JETÉ - $750 c/u'))
+    let listado = Number(prompt('Productos y precios \n1) Zapatillas danza clasica - $1450 \n2) Zapatos de Tap - $1950 \n3) Metatarsiana - $1150 \n4) Remera de Algodon PLIÉ CHASSÉ JETÉ - $750'))
 
     switch(listado){
     case 1 : alert('Usted eligio Zapatillas danza clasica');
@@ -14,7 +14,6 @@ function listadoproductos() {
     case 4 : alert('Usted eligio Remera de Algodon PLIÉ CHASSÉ JETÉ');
     return alert('valor a abonar $750');
     break;
-     
  }
 }
 
