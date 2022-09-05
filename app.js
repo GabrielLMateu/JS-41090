@@ -1,11 +1,22 @@
-let ingreso = Number(prompt("Ingrese un numero a verificar o esc para finalizar"))
-while (ingreso != 'esc') {
-    let ingreso = Number(prompt("Ingrese un numero a verificar o esc para finalizar"))
-    if (ingreso % 2 == 0) {
-        alert("Es par");
-    } else if (ingreso % 2 == 1) {
-        alert("Es impar")
-    } else {
-        break;
-    }
+function listadoproductos() {
+    let listado = Number(prompt('Productos y precios \n1) Zapatillas danza clasica - $1450 c/u \n2) Zapatos de Tap - $1950 c/u \n3) Metatarsiana - $1150 c/u \n4) Remera de Algodon PLIÉ CHASSÉ JETÉ - $750 c/u'))
+
+    switch(listado){
+    case 1 : alert('Usted eligio Zapatillas danza clasica');
+    return alert('valor a abonar $1450');
+    break;
+    case 2 : alert('Usted eligio Zapatos de Tap');
+    return alert('valor a abonar $1950');
+    break;
+    case 3 : alert('Usted eligio Metatarsiana');
+    return alert('valor a abonar $1150');
+    break;
+    case 4 : alert('Usted eligio Remera de Algodon PLIÉ CHASSÉ JETÉ');
+    return alert('valor a abonar $750');
+    break;
+     
+ }
 }
+
+listadoproductos();
+
