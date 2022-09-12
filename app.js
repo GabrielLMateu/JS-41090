@@ -26,8 +26,35 @@ function mostrarProductos(){
         switch(productos){
             case"1":
                 function agregaralcarrito(){
-                    if(carritocompras)
+                    if(carritocompras.lenght >= 3){
+                        alert("Ya tenes el maximo de productos por compra")
+                        mostrarProductos();
+                    }else{
+                        valorCarrito = valorCarrito + precioProducto
+                        carritoProductos.push(productos)
+                        alert(`Se agrego al carrito ${productos}`);
+                        return mostrarProductos();
+                    }
                 }
+                precioProducto = zapatilladanzaclasica.precio;
+                productos = zapatilladanzaclasica.nombre;
+                agregaralcarrito();
+                break;
+            case"2":
+                precioProducto = zapatodetap.precio;
+                productos = zapatodetap.nombre;
+                agregaralcarrito();
+                break;
+            case"3":
+                precioProducto = zapatodetap.precio;
+                productos = zapatodetap.nombre;
+                agregaralcarrito();
+                break; 
+            case"4":
+                precioProducto = remeraalgodon.precio;
+                productos = remeraalgodon.nombre;
+                agregaralcarrito();
+                break;     
         }
 
 
