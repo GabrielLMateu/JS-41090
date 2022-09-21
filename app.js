@@ -25,12 +25,12 @@ const productos = [
   new Producto(1, 001, "Zapatilla de danza Clasica Rosa", "Zapatilla de danza", 10500),
   new Producto(2, 002, "Zapatilla de danza Clasica Crema", "Zapatilla de danza", 10500),
   new Producto(3, 003, "Zapatilla de danza Jazz Negra", "Zapatilla de danza", 10500),
-  new Producto(4, 203, "Zapatilla de danza Jazz Azul", "Zapatilla de danza", 10500),
-  new Producto(5, 204, "Zapato de Tap Negro", "Zapato de cuero Tap", 2400),
-  new Producto(6, 205, "Metatarsiana", "Complementos", 700),
-  new Producto(7, 356, "Remera algodon PLIÉ CHASSÉ JETÉ ALL DAY", "Remera 100% Algodon", 1250),
-  new Producto(8, 357, "Remera algodon HOY NO PUEDO ENSAYO", "Remera 100% Algodon", 1250),
-  new Producto(8, 357, "Remera algodon DANCE MODE ON", "Remera 100% Algodon", 1250),
+  new Producto(4, 004, "Zapatilla de danza Jazz Azul", "Zapatilla de danza", 10500),
+  new Producto(5, 005, "Zapato de Tap Negro", "Zapato de cuero Tap", 2400),
+  new Producto(6, 006, "Metatarsiana", "Complementos", 700),
+  new Producto(7, 007, "Remera algodon PLIÉ CHASSÉ JETÉ ALL DAY", "Remera 100% Algodon", 1250),
+  new Producto(8, 008, "Remera algodon HOY NO PUEDO ENSAYO", "Remera 100% Algodon", 1250),
+  new Producto(8, 009, "Remera algodon DANCE MODE ON", "Remera 100% Algodon", 1250),
 ];
 
 /* Finaliza Constructor y Array de Productos */
