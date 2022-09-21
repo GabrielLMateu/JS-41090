@@ -30,7 +30,7 @@ const productos = [
   new Producto(6, 006, "Metatarsiana", "Complementos", 700),
   new Producto(7, 007, "Remera algodon PLIÉ CHASSÉ JETÉ ALL DAY", "Remera 100% Algodon", 1250),
   new Producto(8, 008, "Remera algodon HOY NO PUEDO ENSAYO", "Remera 100% Algodon", 1250),
-  new Producto(8, 009, "Remera algodon DANCE MODE ON", "Remera 100% Algodon", 1250),
+  new Producto(9, 009, "Remera algodon DANCE MODE ON", "Remera 100% Algodon", 1250),
 ];
 
 /* Finaliza Constructor y Array de Productos */
