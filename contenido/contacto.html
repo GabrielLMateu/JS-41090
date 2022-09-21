@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="danza, taller de danza, clases de danza, danza infantil, danza clasica, danza jazz, teatro musical, patricia nagy">
+    <meta name="description" content="El mejor lugar para aprender y crecer dentro del mundo de la danza">
+    <link rel="shortcut icon" href="../imagenes/logo_pestaña.jpg" type="image/x-icon">
+    <!--Logo etiqueta de pestaña .ico o .png 16x16 pixeles recomendado puede ser igualmente .jpeg-->
+    <!--------- CSS Boostrap ONLY------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!------------CSS propio----------->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300&display=swap"
+        rel="stylesheet">
+    <title>Contacto</title>
+</head>
+
+<body class="padre_contacto">    
+    <!--------------Contactos----------->
+    <h2 class="titulo__contacto">Inscribite y aprende a bailar con <span>amigas</span></h2>
+
+    <div class="formulario__contacto__conjunto">
+        <div class="formulario__contacto">
+            <legend>Datos personales</legend>
+            <form action="">
+                <p>
+                    <label for="nombre">Nombre:</label><input type="text" name="nombre" id="nombre"
+                        placeholder="Igresa tu Nombre" required>
+                </p>
+                <p>
+                    <label for="apellido">Apellido:</label><input type="text" name="apellido" id="apellido"
+                        placeholder="Igresa tu Apellido" required>
+                </p>
+                <p>
+                    <label for="correo">E-Mail:</label><input type="email" name="correo" id="corre"
+                        placeholder="Ingresa tu Correo" required>
+                </p>
+                <p>
+                    <label for="sexo">Sexo</label>
+                    <select name="sexo" id="sexo">
+                        <option value="">Seleccionar</option>
+                        <option value="h">Hombre</option>
+                        <option value="m">Mujer</option>
+                        <option value="nb">No Binario</option>
+                    </select>
+                </p>
+                <p class="bloque_check">Deseas recibir descuentos en nuestros productos?<input type="checkbox"
+                        name="acepta" value="1">
+                </p>
+                <p class="bloque_check">Deseas recibir noticas de eventos y cursos nuevos?<input type="checkbox"
+                        name="acepta" value="1">
+                </p>
+                <p class="bloque_texto">
+                    <textarea name="comentarios" id="comentarios" cols="35" rows="10"
+                        placeholder="Comentanos un poco de vos y que estilos te interesa practicar."></textarea>
+                </p>
+                <input class="enviar" type="submit" value="Enviar formulario">
+                <input class="limpiar" type="reset" value="Limpiar formulario">
+            </form>
+        </div>
+    </div>
+    <!--------------------------------------Footer-------------------------------------->
+    <footer class="contenedorfooter">
+        <!--------------------------------------Social Media-------------------------------------->
+        <div class="footer">
+            <div class="columnafooter">
+                <h2>Redes Sociales</h2>
+                <a href="https://www.instagram.com/estudiopatricianagy/?hl=es-la">Instagram</a>
+                <a href="http://www.facebook.com/estudiopatricianagy">Facebook</a>
+            </div>
+            <!--------------------------------------Medios de contacto-------------------------------------->
+            <div class="columnafooter">
+                <h2>Contacto</h2>
+                <a href="">WhatsApp: +54 11 4418-4317</a>
+                <a href="">Email: danzaspatricianagy@hotmail.com</a>
+            </div>
+            <!--------------------------------------Formulario e Index-------------------------------------->
+            <div class="columnafooter">
+                <h2>Anotate</h2>
+                <a href="contacto.html">Formulario inscripcion</a>
+            </div>
+            <div class="columnafooter">
+                <h2>Conoce mas</h2>
+                <a href="../index.html">Inicio</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

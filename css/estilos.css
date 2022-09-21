@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/*LAS VARIABLES NOS VAN A PERMITIR ESTANDARIZAR LOS COLORES Y TAMAÑOS*/
+:root {
+  /* Colors */
+  --primary: #8b4cbe;
+  --secondary: #eb82e2;
+  --alternative: #302F4d;
+  --text-color: #2b2b2b;
+  /* Spacing */
+  --Sapcing-large: 6rem;
+  --Sapcing-medium: 2.4rem;
+  --Sapcing-small: 2rem;
+  --Sapcing-xsmall: 1rem;
+  /* Font Family */
+  --font-principal: 'Barlow', sans-serif;
+  --font-title: 'Roboto-Slab', serif;
+  /* Font Sizes */
+  --text-large: 4.2rem;
+  --text-medium: 2.2rem;
+  --text-base: 1.6rem;
+  --text-small: 1.4rem; }
+
+/* Siempre primero */
+/*------------------------------------Contacto------------------------------------>*/
+ul {
+  list-style: none;
+  padding: 0; }
+
+.titulo__contacto {
+  text-align: center;
+  font-size: 2.5em;
+  color: #531b1b; }
+  .titulo__contacto span {
+    color: #660166; }
+
+.formulario__contacto__conjunto {
+  box-shadow: 0 0 20px 0 rgba(22, 22, 22, 0.9);
+  background: #574a64; }
+  .formulario__contacto__conjunto > * {
+    padding: 1em;
+    font-family: 'Montagu Slab', serif;
+    line-height: 1.6; }
+  .formulario__contacto__conjunto .formulario__contacto form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .formulario__contacto__conjunto .formulario__contacto form p {
+      margin: 1;
+      padding: 1em; }
+      .formulario__contacto__conjunto .formulario__contacto form p label {
+        display: block; }
+    .formulario__contacto__conjunto .formulario__contacto form .bloque_check,
+    .formulario__contacto__conjunto .formulario__contacto form .bloque_texto {
+      grid-column: 1 / 3; }
+    .formulario__contacto__conjunto .formulario__contacto form .bloque_check {
+      display: flex;
+      align-items: center; }
+    .formulario__contacto__conjunto .formulario__contacto form select,
+    .formulario__contacto__conjunto .formulario__contacto form input,
+    .formulario__contacto__conjunto .formulario__contacto form textarea {
+      width: 100%;
+      padding: .5em;
+      border: none;
+      background: none;
+      outline: none;
+      border: 1px solid coral; }
+    .formulario__contacto__conjunto .formulario__contacto form .enviar:hover,
+    .formulario__contacto__conjunto .formulario__contacto form .enviar :focus,
+    .formulario__contacto__conjunto .formulario__contacto form .limpiar:hover,
+    .formulario__contacto__conjunto .formulario__contacto form .limpiar :focus {
+      background-color: coral;
+      color: beige;
+      transition: background-color .5s ease-in; }
+
+/*------------------------------------Formulario contacto------------------------------------>*/
+.fondoformulario {
+  background-color: #482a69;
+  color: beige; }
+
+.teolvidastealgo {
+  text-decoration: 0;
+  background-color: black;
+  color: white;
+  padding: 0.2rem;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+/*------------------------------------Footer------------------------------------>*/
+.contenedorfooter {
+  background-color: black;
+  padding: 2rem; }
+
+.footer {
+  width: 90%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  font-size: var(--text-medium);
+  align-items: center; }
+
+.columnafooter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.columnafooter h2 {
+  margin-bottom: 3rem;
+  font-size: var(--text-medium); }
+
+.columnafooter a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: var(--text-base); }
+
+.columnafooter a:hover {
+  color: #e7b9b9;
+  transition: 0.3 ease-out; }
+
