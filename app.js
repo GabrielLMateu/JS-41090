@@ -22,15 +22,15 @@ class Producto {
 
 const productos = [
   // se cargas prodcutos manualmente al array
-  new Producto(1, 001, "Zapatilla de danza Clasica Rosa", "Zapatilla de danza", 10500),
-  new Producto(2, 002, "Zapatilla de danza Clasica Crema", "Zapatilla de danza", 10500),
-  new Producto(3, 003, "Zapatilla de danza Jazz Negra", "Zapatilla de danza", 10500),
-  new Producto(4, 004, "Zapatilla de danza Jazz Azul", "Zapatilla de danza", 10500),
-  new Producto(5, 005, "Zapato de Tap Negro", "Zapato de cuero Tap", 2400),
-  new Producto(6, 006, "Metatarsiana", "Complementos", 700),
-  new Producto(7, 007, "Remera PLIÉ CHASSÉ JETÉ ALL DAY", "Remera 100% Algodon", 1250),
-  new Producto(8, 008, "Remera HOY NO PUEDO ENSAYO", "Remera 100% Algodon", 1250),
-  new Producto(9, 009, "Remera DANCE MODE ON", "Remera 100% Algodon", 1250),
+  new Producto(1, 101, "Zapatilla de danza Clasica Rosa", "Zapatilla de danza", 10500),
+  new Producto(2, 102, "Zapatilla de danza Clasica Crema", "Zapatilla de danza", 10500),
+  new Producto(3, 103, "Zapatilla de danza Jazz Negra", "Zapatilla de danza", 10500),
+  new Producto(4, 104, "Zapatilla de danza Jazz Azul", "Zapatilla de danza", 10500),
+  new Producto(5, 105, "Zapato de Tap Negro", "Zapato de cuero Tap", 2400),
+  new Producto(6, 106, "Metatarsiana", "Complementos", 700),
+  new Producto(7, 107, "Remera PLIÉ CHASSÉ JETÉ ALL DAY", "Remera 100% Algodon", 1250),
+  new Producto(8, 108, "Remera HOY NO PUEDO ENSAYO", "Remera 100% Algodon", 1250),
+  new Producto(9, 109, "Remera DANCE MODE ON", "Remera 100% Algodon", 1250),
 ];
 
 /* Finaliza Constructor y Array de Productos */
