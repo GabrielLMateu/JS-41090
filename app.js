@@ -25,7 +25,7 @@ const productos = [
   new Producto(1, 001, "Zapatilla de danza Clasica Rosa", "Zapatilla de danza", 10500),
   new Producto(2, 002, "Zapatilla de danza Clasica Crema", "Zapatilla de danza", 10500),
   new Producto(3, 003, "Zapatilla de danza Jazz Negra", "Zapatilla de danza", 10500),
-  new Producto(4, 203, "TIRA 3 AGUJEROS D1500", "VW", 24.82),
+  new Producto(4, 203, "Zapato de Tap Negro", "Zapato de cuero Tap", 2400),
   new Producto(5, 204, "D1500 REFORMA", "VW", 20.35),
   new Producto(6, 205, "GACEL", "VW", 7.81),
   new Producto(7, 356, "FALCON CORTO", "FORD", 20.68),
