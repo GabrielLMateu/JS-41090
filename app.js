@@ -7,7 +7,7 @@ const templateProductos = document.querySelector("#templateProductos");
 const templateCarritos = document.querySelector("#templateCarritos");
 const fragment = document.createDocumentFragment();
 
-/* Creamos el constructor de productos y cargamos el array de productos */
+/* Constructor de productos y cargamos el array de productos */
 class Producto {
   // se construye plantilla de productos
   constructor(id, codigo, descripcion, categoria, precio, cantidad) {
@@ -22,21 +22,14 @@ class Producto {
 
 const productos = [
   // se cargas prodcutos manualmente al array
-  new Producto(1, 125, "R6-R12 TRASERO ORIGINAL", "RENAULT", 13.38),
-  new Producto(2, 126, "R12 DELANTERO", "RENAULT", 21.96),
-  new Producto(3, 127, "R21 DELANTERO", "RENAULT", 21.96),
+  new Producto(1, 001, "Zapatilla de danza Clasica Rosa", "Zapatilla de danza", 10500),
+  new Producto(2, 002, "Zapatilla de danza Clasica Crema", "Zapatilla de danza", 10500),
+  new Producto(3, 003, "Zapatilla de danza Jazz Negra", "Zapatilla de danza", 10500),
   new Producto(4, 203, "TIRA 3 AGUJEROS D1500", "VW", 24.82),
   new Producto(5, 204, "D1500 REFORMA", "VW", 20.35),
   new Producto(6, 205, "GACEL", "VW", 7.81),
   new Producto(7, 356, "FALCON CORTO", "FORD", 20.68),
   new Producto(8, 357, "FALCON LARGO", "FORD", 20.68),
-  new Producto(9, 358, "SIERRA", "FORD", 17.12),
-  new Producto(10, 430, "COLUMNA 404 7mm", "PEUGEOT", 44.79),
-  new Producto(11, 438, "COLUMNA 504 8mm", "PEUGEOT", 44.79),
-  new Producto(12, 429, "504 ARO", "PEUGEOT", 19.26),
-  new Producto(13, 525, "125-1500 GANCHO CORTO", "FIAT", 15.52),
-  new Producto(14, 576, "128 GANCHO LARGO", "FIAT", 16.51),
-  new Producto(15, 517, "125-1500 TRASERO CORTO", "FIAT", 12.38),
 ];
 
 /* Finaliza Constructor y Array de Productos */
