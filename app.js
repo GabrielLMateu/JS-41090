@@ -30,6 +30,7 @@ const productos = [
   new Producto(6, 205, "GACEL", "VW", 7.81),
   new Producto(7, 356, "FALCON CORTO", "FORD", 20.68),
   new Producto(8, 357, "FALCON LARGO", "FORD", 20.68),
+  new Producto(8, 357, "FALCON LARGO", "FORD", 20.68),
 ];
 
 /* Finaliza Constructor y Array de Productos */
